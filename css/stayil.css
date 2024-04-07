@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #202733;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  max-width: 540px;
+  width: 100%;
+  height: 332px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #313a48;
+  padding: 48px 48px 0 48px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.line-div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.underline {
+  height: 2px;
+  width: 196px;
+  background-color: #979797;
+}
+
+.line {
+  height: 16px;
+  background-color: #fff;
+  width: 6px;
+  border-radius: 3px;
+}
+
+img {
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: #53ffaa;
+  cursor: pointer;
+  margin-top: 60px;
+  position: absolute;
+  bottom: -32px;
+  &:hover {
+    box-shadow: inset 0 -3em 3em rgb(0 200 0 / 50%),
+      0 0 0 2px rgb(0 200 0 / 30%), 0.3em 0.3em 1em rgb(0 200 0 / 30%);
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: absolute;
+  bottom: -0px;
+  margin-bottom: 60px;
+}
+
+.cards__id {
+  font-family: "Manrope", sans-seri;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 17.76px;
+  letter-spacing: 4.085713863372803px;
+  text-align: center;
+  color: #53ffaa;
+  position: absolute;
+  bottom: 280px;
+}
+
+.cards__text {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.25px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
