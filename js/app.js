@@ -18,6 +18,8 @@ function getData() {
 
 image.addEventListener("click", () => {
   getData();
+  const music = new Audio("../aud/mouse-click-153941 (2).mp3");
+  music.play();
 });
 
 getData();
